@@ -8,7 +8,7 @@ Este projeto foi desenvolvido com o objetivo de consolidar conceitos fundamentai
 
 ## ✨ Funcionalidades
 
-- **Cadastrar Restaurantes:** Permite a inserção de novos estabelecimentos informando o nome e a categoria.
+- **Cadastrar Restaurantes:** Permite o cadastro de novos estabelecimentos informando o nome e a categoria.
 - **Listar Restaurantes:** Exibe de forma organizada e alinhada todos os restaurantes cadastrados no terminal, mostrando o nome, categoria e se estão ativos ou não.
 - **Alternar Status:** Permite ativar ou desativar o funcionamento de um restaurante específico buscando pelo nome.
 - **Tratamento de Erros:** O menu e as entradas de dados são protegidos por estruturas `try/except`, evitando que o programa feche sozinho caso o usuário digite uma opção inválida.
