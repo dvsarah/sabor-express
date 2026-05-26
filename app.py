@@ -118,14 +118,14 @@ def escolher_opcao():
 
         else: 
             opcao_invalida()
-    except ValueError: # só entra quando é erro de valor da variavel, ou seja, se o cliente digitar algo que não seja número
+    except ValueError: # só entra quando é erro de valor da variável, ou seja, se o cliente digitar algo que não seja número
         opcao_invalida() 
     
-    except Exception as e: # pega qualquer erro q não seja de valor, guarda ele na variavel e exibe no terminal
+    except Exception as e: # pega qualquer erro que não seja de valor, guarda ele na variável e exibe no terminal
         print(f"Erro inesperado no código: {e}")
     
-    # se houver algum erro logico , irá aparecer no terminal e não vai cair no except de cima,
-    # onde qualquer erro no código estava aparecendo no terminal "opção invalida" ao invés de
+    # se houver algum erro lógico , irá aparecer no terminal e não vai cair no except de cima,
+    # onde qualquer erro no código estava aparecendo no terminal "opção inválida" ao invés de
     # erro no terminal. Dificultando achar aonde o erro estava. 
 
 
