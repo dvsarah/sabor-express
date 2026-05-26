@@ -125,8 +125,8 @@ def escolher_opcao():
         print(f"Erro inesperado no código: {e}")
     
     # se houver algum erro logico , irá aparecer no terminal e não vai cair no except de cima,
-    # onde qualquer erro no código estava aparecendo no terminal "opção invalida ao invés de
-    # erro no terminal. Dificultando acahr aonde o erro estava. 
+    # onde qualquer erro no código estava aparecendo no terminal "opção invalida" ao invés de
+    # erro no terminal. Dificultando achar aonde o erro estava. 
 
 
 if __name__ == "__main__": 
